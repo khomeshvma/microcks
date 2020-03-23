@@ -293,7 +293,7 @@
 							],
 							"cookie": [],
 							"responseTime": 233,
-							"body": "{\"id\":2,\"category\":{\"id\":1,\"name\":\"Animal\"},\"name\":\"cat\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":1,\"name\":\"domestic\"}],\"status\":\"available\"}"
+							"body": "{\"id\":2,\"category\":{\"id\":1,\"name\":\"Animall\"},\"name\":\"cat\",\"photoUrls\":[\"string\"],\"tags\":[{\"id\":1,\"name\":\"domestic\"}],\"status\":\"available\"}"
 						},
 						{
 							"id": "187fb73f-edbb-47d4-89ae-7e3e4a8cfcbd",
