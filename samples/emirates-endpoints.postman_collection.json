@@ -112,9 +112,13 @@
 					"raw": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/es/estore/allusers",
 					"protocol": "http",
 					"host": [
-						"es-store-backend-prod-blue"
+						"es-store-backend-prod-blue",
+            "apps",
+            "openshifttest",
+            "clientcenter",
+            "local"
 					],
-					"port": "8080",
+					"port": "",
 					"path": [
 						"es",
 						"estore",
