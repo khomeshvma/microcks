@@ -2,9 +2,8 @@
 	"variables": [],
 	"info": {
 		"name": "estore-collection",
-		"description": "version=1.0 - This is a es-estore API description",
 		"_postman_id": "0cd644d0-a3d8-5a21-7a92-28e76533d550",
-		"description": "",
+		"description": "version=1.0 - This is a es-estore API description",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -17,7 +16,45 @@
 				"body": {},
 				"description": ""
 			},
-			"response": []
+			"response": [
+				{
+					"id": "2e731b38-2e61-4c61-ad93-7a4bcb50608d",
+					"name": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/es/estore/allusers",
+					"originalRequest": {
+						"url": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/es/estore/allusers",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Thu, 26 Mar 2020 12:10:02 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "transfer-encoding",
+							"key": "transfer-encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						}
+					],
+					"cookie": [],
+					"responseTime": 743,
+					"body": "[{\"userId\":\"ESCUST001\",\"userFirstName\":\"bhaskar\",\"userLastName\":\"battula\",\"userLoginName\":\"bhaskarbattula\",\"userPassword\":\"bhas123\",\"phoneNumber\":\"8970026666\",\"emailId\":\"bhaskar06.battula@gmail.com\",\"role\":null,\"active\":true},{\"userId\":\"ESCUST002\",\"userFirstName\":\"khomesh\",\"userLastName\":\"verma\",\"userLoginName\":\"khomeshverma\",\"userPassword\":\"komesh123\",\"phoneNumber\":\"8970025555\",\"emailId\":\"khomeshverma@gmail.com\",\"role\":null,\"active\":true},{\"userId\":\"ESCUST003\",\"userFirstName\":\"pon\",\"userLastName\":\"singh\",\"userLoginName\":\"ponsingh\",\"userPassword\":\"ponsingh123\",\"phoneNumber\":\"8970044444\",\"emailId\":\"ponsingh@gmail.com\",\"role\":null,\"active\":true},{\"userId\":\"ESCUST004\",\"userFirstName\":\"akhila\",\"userLastName\":\"aaa\",\"userLoginName\":\"akhila\",\"userPassword\":\"akhila123\",\"phoneNumber\":\"8970044466\",\"emailId\":\"akhila@gmail.com\",\"role\":null,\"active\":true}]"
+				}
+			]
 		}
 	]
 }
