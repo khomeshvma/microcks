@@ -3,7 +3,7 @@
 	"info": {
 		"name": "estore",
 		"_postman_id": "572a3779-e9c4-1c48-ff03-a40287567594",
-		"description": "",
+		"description": "version=1.0 - This is a es-estore API description",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
