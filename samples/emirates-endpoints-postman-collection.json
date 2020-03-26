@@ -2,107 +2,12 @@
 	"info": {
 		"_postman_id": "496c817d-4f26-4c90-9c02-b02a4884be5f",
 		"name": "emirates-endpoints",
-    "description": "version=1.0 - This is a es-estore API description",
+		"description": "version=1.0 - This is a es-estore API description",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
-		{
-			"name": "get orders",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": ""
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "getproducts",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": ""
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "create order",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"type": "text",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"orderId\": \"ESORD001\",\r\n  \"customerId\": \"ESCUST001\",\r\n  \"orderDate\": null,\r\n  \"orderAmount\": 800,\r\n  \"discount\": 0,\r\n  \"tax\": 0,\r\n  \"orderItem\" : [\r\n    {\r\n      \"productId\" : \"ESPROD001\",\r\n      \"discount\": 0,\r\n        \"tax\": 0,\r\n          \"productPrice\": 200,\r\n    \"quantity\": 1,\r\n    \"itemTotal\": 200\r\n    },\r\n    {\r\n      \"productId\" : \"ESPROD002\",\r\n      \"discount\": 0,\r\n        \"tax\": 0,\r\n          \"productPrice\": 300,\r\n    \"quantity\": 2,\r\n    \"itemTotal\": 600\r\n    }\r\n  ],\r\n  \"shippingAddress\":{\r\n    \"name\" : \"Ponsingh\",\r\n    \"addr1\" : \"BLR\",\r\n    \"addr2\": \"Pune\",\r\n    \"city\": \"BLR\",\r\n    \"state\": \"KA\",\r\n    \"country\": \"IND\",\r\n    \"zipCode\": \"562125\"\r\n\t},\r\n\t\"payment\" :{\r\n\t\"paymentId\":\"ESPAY001\",\r\n\t\"paidAmount\":800,\r\n\t\"paymentMethod\":\"credit card\",\r\n\t\"paymentProcessor\":\"razor pay\",\r\n\t\"cardNo\":\"1435467899968764\",\r\n\t\"firstName\":\"Pon\",\r\n\t\"lastName\":\"Singh\",\r\n\t\"expiryDate\":\"02/21\",\r\n\t\"transactionId\":\"1234\",\r\n\t\"currenyId\":\"840\",\r\n\t\"paymentResponse\":\"success\"\r\n\t},\r\n    \"emailId\":\"bhaskar06.battula@gmail.com\"\r\n}"
-				},
-				"url": {
-					"raw": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/order/create",
-					"protocol": "http",
-					"host": [
-						"es-store-backend-prod-blue"
-					],
-					"port": "8080",
-					"path": [
-						"order",
-						"create"
-					],
-					"query": [
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "create user",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"type": "text",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"userId\": \"ESCUST001\",\r\n  \"userFirstName\": \"bhaskar\",\r\n  \"userLastName\": \"battula\",\r\n  \"userLoginName\": \"bhaskarbattula\",\r\n  \"userPassword\":\"bhas123\",\r\n  \"phoneNumber\": \"8970026666\",\r\n  \"emailId\":\"bhaskar06.battula@gmail.com\",\r\n  \"role\":\"admin\",\r\n   \"active\":\"true\"\r\n}"
-				},
-				"url": {
-					"raw": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/emirates/create/user",
-					"protocol": "http",
-					"host": [
-						"es-store-backend-prod-blue"
-					],
-					"port": "8080",
-					"path": [
-						"emirates",
-						"create",
-						"user"
-					],
-					"query": [
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
-						}
-					]
-				}
-			},
-			"response": []
-		},
+
+
 		{
 			"name": "getusers",
 			"request": {
@@ -124,17 +29,6 @@
 						"estore",
 						"allusers"
 					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "getuserbyid",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": ""
 				}
 			},
 			"response": []
