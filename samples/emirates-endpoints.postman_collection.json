@@ -47,7 +47,7 @@
 					"raw": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/order/create",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"es-store-backend-prod-blue"
 					],
 					"port": "8080",
 					"path": [
@@ -84,7 +84,7 @@
 					"raw": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/emirates/create/user",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"es-store-backend-prod-blue"
 					],
 					"port": "8080",
 					"path": [
@@ -112,7 +112,7 @@
 					"raw": "http://es-store-backend-prod-blue.apps.openshifttest.clientcenter.local/es/estore/allusers",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"es-store-backend-prod-blue"
 					],
 					"port": "8080",
 					"path": [
